@@ -5,47 +5,42 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Personal Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Eat In Time"
+    img="/fooddelivery.webp"
+    desc="Developed a mobile application for customers to order food from restaurants, providing a seamless user experience. Additionally, created a web application for restaurant owners to manage incoming orders. This web platform features an admin dashboard that displays key metrics such as total orders and revenue, along with options for menu management. Worked collaboratively with a team of 2, utilizing key skills including Go for backend development, Firebase for authentication, Flutter for app development, React for website development, and Git and GitHub for team collaboration."
+    url="https://foodwastage-5380e.web.app/"
     badge="NEW"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
-  </div>
-
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    title="All Blogs"
+    img="/blog.webp"
+    desc="Built a responsive web app for creating and sharing blogs on various topics. Implemented filtering to display blogs based on user preferences. Utilized MongoDB, ReactJS, ExpressJS, and Node.js for frontend and backend. Deployed on AWS EC2."
+    url="https://github.com/dev-tejesh/Tech-Blogs"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Uploader"
+    img="/uploader.webp"
+    desc="Created a mobile app for file management, allowing users to upload, organize, and share files. Added media playback and secure cloud storage for accessibility. Managed full development lifecycle, including Play Store deployment."
+    url="https://github.com/dev-tejesh/documentsuploader"
+  />
+
+  <HorizontalCard
+    title="Blood Donation"
+    img="/blood.webp"
+    desc="Created an Android application using Flutter and Firebase to connect blood donors and blood recipients. Handled the whole development life cycle from design to release on Google Playstore. Key skills: Flutter, GetX, Dart, Firebase"
+    url="https://github.com/dev-tejesh/blood-donation"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Shorten Url"
+    img="/url-shortener.webp"
+    desc="Shorten URL is a web application built using MERN( MongoDB, ExpressJs, ReactJs, NodeJs) stack. Shorten Url helps to shorten lengthy Url. Key skills: ReactJs, MongoDB, ExpressJs, NodeJs"
+    url="https://github.com/dev-tejesh/Shortenurl"
   />
 </BaseLayout>
